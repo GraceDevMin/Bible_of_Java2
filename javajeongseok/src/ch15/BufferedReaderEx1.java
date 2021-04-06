@@ -17,7 +17,6 @@ public class BufferedReaderEx1 {
 				if(line.indexOf(";") != -1)
 					System.out.println(i+":"+line);
 			}
-			
 			br.close();
 		}catch(IOException e) {
 			
